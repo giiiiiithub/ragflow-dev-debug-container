@@ -18,8 +18,8 @@
  	docker compose -f docker-compose.yml down -v
 	docker compose -f docker-compose.yml up -d
 	```
-3. connect to the container using vs code remote
-4. `docker logs --tail 100 -f $container_id` , wait for ouptput: "dev debug container ready!"
+3. `docker logs --tail 100 -f $dev_debug_container_id` , wait for ouptput: "dev debug container ready!"
+4. connect to the dev-debug container using vs code remote
 5. source code absolute path: `/ragflow`
 6. entrypoints: 
    - `api/ragflow_server.py`
