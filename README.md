@@ -14,7 +14,7 @@
 2. start dependent services:
 
 	```shell
- 	cd ragflow
+ 	cd ragflow/docker
  	docker compose -f docker/docker-compose.yml down -v
 	docker compose -f docker-compose.yml up -d
 	```
