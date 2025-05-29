@@ -1,5 +1,8 @@
 # ragflow-dev-debug-container
 
+> Environment setup is such a hassle – might as well use the official container image and place the source code inside it. This way, you can develop with VS Code's remote feature. Simple and efficient ——
+**Translated by DeepSeek​**
+
 1. build and start dev-debug container:
    	```shell
     ./build.sh $ragflow_version $dev_debug_version $http_proxy_on_host $container_external_sshServer_port $root_pwd
