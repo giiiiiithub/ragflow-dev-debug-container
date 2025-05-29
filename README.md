@@ -2,7 +2,7 @@
 
 1. build and start dev-debug container:
    	```shell
-    ./build.sh $ragflow_version $dev_debug_version $http_proxy $container_external_sshServer_port $root_pwd
+    ./build.sh $ragflow_version $dev_debug_version $http_proxy_on_host $container_external_sshServer_port $root_pwd
 	  ```
     example:
     ```shell 
