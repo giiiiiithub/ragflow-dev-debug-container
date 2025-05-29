@@ -15,7 +15,7 @@
 
 	```shell
  	cd ragflow/docker
- 	docker compose -f docker/docker-compose.yml down -v
+ 	docker compose -f docker-compose.yml down -v
 	docker compose -f docker-compose.yml up -d
 	```
 3. connect to the container using vs code remote
