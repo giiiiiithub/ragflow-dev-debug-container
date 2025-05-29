@@ -16,7 +16,7 @@
 	docker compose -f docker-compose.yml up -d
 	```
 3. connect to the container using vs code remote
-4. source code location: `/ragflow`
+4. source code absolute path: `/ragflow`
 5. entrypoints: 
    - `api/ragflow_server.py`
    - `rag/svr/task_executor.py`
